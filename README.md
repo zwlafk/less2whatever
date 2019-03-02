@@ -13,4 +13,4 @@ eg.
 ```bash
 less2whatever wxss
 ```
-this will generate compiled file,but suffix is `.wxss`
+this still generate compiled css file,but suffix is `.wxss`
