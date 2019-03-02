@@ -1,0 +1,20 @@
+{
+  "name": "less2whatever",
+  "version": "1.0.0",
+  "description": "less2whatever css/wxss",
+  "bin": { "less2whatever": "bin/less2whatever.js" },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwlafk/less2whatever.git"
+  },
+  "author": "zwlafk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zwlafk/less2whatever/issues"
+  },
+  "homepage": "https://github.com/zwlafk/less2whatever#readme"
+}
