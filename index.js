@@ -6,7 +6,7 @@ const path = require('path')
  * @param  rootPath 执行命令时的路径
  * @param  filename 变动的less文件名
  */
-function genWxssFile(rootPath, filename, suffix) {
+function compileFile(rootPath, filename, suffix) {
 	let filePathArr = `${rootPath + '\\' + filename}`.split('.')
 	filePathArr.pop()
 	let filenameWithPath = filePathArr.join('.')
@@ -26,7 +26,7 @@ function fileWatcher(rootPath, suffix) {
 		},
 		(eventType, filename) => {
 			if (eventType === "change" && path.extname(filename) === ".less") {
-				genWxssFile(rootPath, filename, suffix)
+				compileFile(rootPath, filename, suffix)
 			}
 		});
 }

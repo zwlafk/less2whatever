@@ -1,6 +1,6 @@
 {
   "name": "less2whatever",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "less2whatever css/wxss",
   "bin": { "less2whatever": "bin/less2whatever.js" },
   "main": "index.js",
