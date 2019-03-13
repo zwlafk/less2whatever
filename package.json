@@ -1,8 +1,10 @@
 {
   "name": "less2whatever",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "less2whatever css/wxss",
-  "bin": { "less2whatever": "bin/less2whatever.js" },
+  "bin": {
+    "less2whatever": "bin/less2whatever.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/zwlafk/less2whatever/issues"
   },
-  "homepage": "https://github.com/zwlafk/less2whatever#readme"
+  "homepage": "https://github.com/zwlafk/less2whatever#readme",
+  "dependencies": {
+    "less": "^3.9.0"
+  }
 }

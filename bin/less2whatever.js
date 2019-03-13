@@ -8,7 +8,7 @@ var fs = require("fs"),
  */
 var run = function (suffix="css") {
     fs.readdir(path, function (err, files) {
-        console.log(path)
+        console.log('\033[42;30m DONE \033[40;32m '+`less2whatever is watching your less file under ${path}`)
         if (err) {
             return console.log(err);
         }
